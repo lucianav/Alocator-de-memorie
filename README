@@ -1,0 +1,16 @@
+// Viziru Luciana Elena - 312CA
+
+Comenzile primite sunt salvate in siruri de caractere care sunt apoi
+prelucrate, pentru a putea apela corect functia corespunzatoare.
+
+Folosind in repetate randuri castul unsigned char * catre int * am putut
+scrie cu usurinta valorile corespunzatoare in memorie.
+
+In functii, am folosit un vector auxiliar, pentru a lucra mai usor
+cu indicii de care aveam nevoie in functiile alloc, my_free, show_free,
+show_usage si show_allocations. Odata cu modificarea unei
+sectiuni de date, se schimba indicii ambelor sectiuni vecine.
+
+Nu am eliberat memoria intrucat cauzeaza segmentation fault.
+
+
